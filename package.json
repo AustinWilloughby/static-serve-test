@@ -1,0 +1,24 @@
+{
+  "name": "static-serve-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinWilloughby/static-serve-test.git"
+  },
+  "author": "Austin Willoughby",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AustinWilloughby/static-serve-test/issues"
+  },
+  "homepage": "https://github.com/AustinWilloughby/static-serve-test#readme",
+  "dependencies": {
+    "finalhandler": "^1.1.2",
+    "serve-static": "^1.14.1"
+  }
+}

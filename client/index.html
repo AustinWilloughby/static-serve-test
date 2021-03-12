@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Static Serving Test</title>
+</head>
+  
+<body>
+  <h1>Static Serve Test</h1>
+  <p>There should be two test images below.</p>
+  
+  <!--Below are two image tags. When the browser loads the image tag, it makes
+  a request to a server for the image. If a full url is specified, it will make a
+  request to the proper server for that resource. If you have a relative path, like
+  below, it will make a request back to the server that sent the html page. In this
+  case, it is making a request back to our server for /test1.jpg and /test2.jpg.
+  
+  Because we have our serve-static system set up, these files will be sent back and will
+  automatically display.-->
+  <img src="/test1.jpg" />
+  <img src="/test2.jpg" />
+</body>
+</html>
